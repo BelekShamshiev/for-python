@@ -39,9 +39,6 @@ const Hero = () => {
         </div>
     
       </div>  
-        <div className={s.hero_title_google}>
-            <img src="/gogle.svg" alt="" />
-        </div>
     </div>
   );
 };
