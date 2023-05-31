@@ -195,6 +195,9 @@
       }
   
       @media (max-width: 320px) {
+        .about_box{
+          width: 200px;
+        }
         .about_box_title {
           padding-top: 20px;
         }
@@ -202,19 +205,26 @@
         .about_box_logo h1 {
           font-size: 20px;
         }
-  
-        .about_box_title_desc p {
-          font-size: 10px;
+        .about_box_title_desc{
+          display: none;
+          width: 100px;
+          p {
+          font-size: 8px;
         }
+        }
+        
   
         .about_box_information,
         .about_box_down {
           padding-top: 40px;
         }
-  
-        .about_box_information_logo h1 {
-          font-size: 20px;
+        .about_box_information_logo{
+          width: 145px;
+         h1 {
+          font-size: 10px;  
         }
+        }
+     
   
         .about_box_information_desc > p,
         .about_box_down_first p,

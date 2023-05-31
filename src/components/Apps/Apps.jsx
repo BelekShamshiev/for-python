@@ -29,9 +29,6 @@ const Apps = () => {
             <p>Request Early Access to Get Started</p>
             <h2>Register today & start exploring the endless possiblities.</h2>
         </div>
-        <div className={s.apps_title_down_btn}>
-            <button>Get Started</button>
-        </div>
       </div>
     </div>
   );

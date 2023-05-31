@@ -74,6 +74,10 @@
     }
   
     @media (max-width: 768px) {
+      .card_all{
+        display: flex;
+        flex-direction: column;
+      }
       .card_title_right_card {
         .card_title_right_card_title {
           height: auto;

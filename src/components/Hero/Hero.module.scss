@@ -302,6 +302,9 @@
 @media (max-width: 320px) {
   .hero {
     .hero_title {
+      .hero_title_desc p{
+        font-size: 10px;
+      }
       .hero_title_input {
         input {
           width: 150px;
